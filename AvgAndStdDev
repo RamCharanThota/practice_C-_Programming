@@ -1,0 +1,36 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// define variables here 
+int N=10;
+int marks[N];
+
+float sum=0 , avg, dev;PowSum=0;diff,diffPower
+
+int main {
+for (int i=0; i<N;i=i+1){
+cout<<"enter the marks of student << i+1;
+c>> input;
+marks[i]=input;
+sum=sum+input;
+}
+avg=sum/N;
+
+cout<< " the average value of marks is "<< avg;
+
+for (int i=0; i<N;i=i+1){
+  diff =avg-marks[i];
+   diffPower=pow(diff,2.0);
+   PowSum=PowSum+diffPower
+ }
+ 
+ float devAvg=PowSum/N;
+ dev= sqrt(devAvg);
+ cout<< " the deviation value of marks is "<< dev;
+ 
+
+
+
+
+}

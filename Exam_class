@@ -1,0 +1,10 @@
+#include <iostream>
+
+class stud{
+int id;
+};
+
+int main (){
+stud.id=10;
+cout<<sutd.id;
+}
